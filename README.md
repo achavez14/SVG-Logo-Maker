@@ -13,7 +13,7 @@ My purpose in creating this application was to prompt the user to generate a log
 - ![Screenshot_7](./images/Screenshot_(7).png)
 
 ## Link to Video Walkthrough
-- ![Video Walkthrough](https://drive.google.com/file/d/15rngp9MbO5Kmnw3Xw61-hn14H1Y8PUIT/view)
+- ![Video Walkthrough](hhttps://drive.google.com/file/d/15rngp9MbO5Kmnw3Xw61-hn14H1Y8PUIT/view?usp=sharing)
 
 ## Table of Contents
 - [Features](#features)
