@@ -56,8 +56,17 @@ import('inquirer').then(inquirer => {
         console.log(`Rendering ${answers.shape} with color ${answers.shapeColor}:`);
         const svgContent = shape.render(); // Assuming render() method returns SVG content
 
-        // Write the SVG content to a file named logo.svg
-        fs.writeFile('logo.svg', svgContent, (err) => {
+        // Add CSS styling for text and shapes based on user input colors
+        const styledSvgContent = `
+            <style>
+                text { fill: ${answers.textColor}; }
+                circle, rect { fill: ${answers.shapeColor}; }
+            </style>
+            ${svgContent}
+        `;
+
+        // Write the styled SVG content to a file named logo.svg
+        fs.writeFile('logo.svg', styledSvgContent, (err) => {
             if (err) {
                 console.error('Error writing logo.svg file:', err);
             } else {
