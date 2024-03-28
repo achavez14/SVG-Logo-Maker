@@ -1,7 +1,7 @@
 
             <style>
-                text { fill: blue; }
-                circle, rect { fill: black; }
+                text { fill: Turquoise; }
+                circle, rect { fill: Gray; }
             </style>
-            <polygon points="150, 50 250, 200 50, 200" fill="black" />
+            <circle cx="150" cy="100" r="50" fill="Gray" />
         
