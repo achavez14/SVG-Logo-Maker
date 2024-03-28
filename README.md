@@ -1,20 +1,27 @@
 # SVG-Logo-Maker
 
+## Description
+My purpose in creating this application was to prompt the user to generate a logo by adding text and selecting color and shape to automatically generate and store the resultant SVG file via the Node.js command line.
+
+## Screenshots of My Application
+- ![Screenshot_1](./images/Screenshot_(1).png)
+- ![Screenshot_2](./images/Screenshot_(2).png)
+- ![Screenshot_3](./images/Screenshot_(3).png)
+- ![Screenshot_4](./images/Screenshot_(4).png)
+- ![Screenshot_5](./images/Screenshot_(5).png)
+- ![Screenshot_6](./images/Screenshot_(6).png)
+- ![Screenshot_7](./images/Screenshot_(7).png)
+
+## Link to Video Walkthrough
+- ![Video Walkthrough]
+
 ## Table of Contents
-- [Description](#description)
-- [Links](#links)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
-
-## Description
-My purpose in creating this application was to prompt the user to generate a logo by adding text and selecting color and shape to automatically generate and store the resultant SVG file via the Node.js command line.
-
-## Link to Video Walkthrough
-- ![Video Walkthrough]
 
 ## Features
 - The user can input text for the logo
